@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+movietitle1 = MovieTitle.create(title: "Star Wars", description: "A long long time ago in a galaxy far away")
+movietitle2 = MovieTitle.create(title: "The Avengers", description: "Earth mightiest heroes")
+
