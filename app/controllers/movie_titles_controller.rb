@@ -1,7 +1,8 @@
 class MovieTitlesController < ApplicationController
 
     def index 
-        @movieTitles = MovieTitle.all 
+        @movieTitles = MovieTitle.all
+        logger.debug 'Showing movie titles : ' + @movieTitles.inspect 
         render json: @movieTitles
     end
 
